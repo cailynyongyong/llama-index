@@ -6,7 +6,6 @@ source venv/bin/activate
 pip install llama-index llama-index-llms-ollama llama-index-embeddings-ollama
 pip install streamlit
 streamlit run test.py
-
 ```
 
 ## 여러 LLM 모델 사용하는 방법
@@ -16,5 +15,4 @@ streamlit run test.py
 ```
 ollama pull llama3
 ollama pull phi3
-
 ```
